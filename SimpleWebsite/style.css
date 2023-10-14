@@ -1,0 +1,59 @@
+.very-fancy-paragraph {
+    border-radius:25rem;
+    background: #d2d0d0;
+    padding: 5px;
+
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.body {
+    font-family: "Comic Sans MS";
+    margin: 10%;
+}
+
+.highlighted-sections {
+    border-color: green;
+    border-style: dashed;
+    padding: 1%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+ul.b {
+    list-style-type: circle;
+}
+
+.red-item {
+    color: red;
+    list-style-type: square;
+}
+
+.all {
+    margin: 4%;
+}
+
+.ol-d {
+    list-style-type: armenian;
+    margin-left: 2%;
+}
+
+.picture{
+    width:40%;
+}
+
+img:hover {
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+}
+
+a:visited { color: red;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your first Website</title>
+    <link rel="stylesheet" href=" style.css"/>
+</head>
+<body class="all">
+<article>
+    <h1> Your first Website</h1>
+    <section>
+        <p class="bold-font">
+            Recreate this simple website using all the skills we learnt in the last couple of weeks
+        </p>
+        <p class="very-fancy-paragraph bold-font">
+            You will need both HTML (be careful to use the proper structure!) and various CSS rules. This paragraph has
+            a lightgray
+            background color and slightly rounded edges. Make sure the text does not protrude from the background
+            despite the
+            rounded corners.
+        </p>
+        <h3>Paragraphs which are siblings to a h1 which is a direct descendent of an article use bold font. </h3>
+        <h3> Task 1 </h3>
+        <section class="highlighted-sections body">
+        <p>
+            <strong> General Body Rules </strong>
+        <ul>
+            <li> Uses a font without serifs</li>
+            <li> Has a 10% margin all around </li>
+            <li> All values have to be relative </li>
+
+        </ul>
+            Some sections are highlighted:
+            <ul>
+                <li> They have a green, dashed border </li>
+                <li> A bit of padding </li>
+                <li> Some top & bottom margins (but not left or right margins)</li>
+            </ul>
+        </section>
+        <h2> Special List</h2>
+        <section>
+            <ul class = b>
+                <li>An unordered list in a section which directly succeeds another section</li>
+                <li>Uses circle as bullet points</li>
+                <li class="red-item">Except for this one item which decided to use a square and color itself red</li>
+            </ul>
+
+        </section>
+    </section>
+    <section>
+        <h3>Heading in a section</h3>
+        A h1 in a section uses italic. Those in an article do not.
+
+        <p class="very-fancy-paragraph">This paragraph has a lightgray background color and slightly rounded edges. The second time we need this logic... so? What are you going to do?</p>
+    </section>
+
+    <h2>Task 2 </h2>
+    <h3 class="italic"> Some Enumerations</h3>
+    <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Some nested values with armenian numbers</li>
+    </ol>
+    <ol class = ol-d>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+</article>
+<section class="highlighted-sections">
+    <h2 class="italic"> A History lesson</h2>
+    <p>Include the provided Image. If the user hovers over it display its 'center' within an ellipse. <strong>Also make sure that is has a width of at most 40%</strong></p>
+    <img src="https://img001.prntscr.com/file/img001/HZDOWZiHRce76k4kUbowRg.jpg" alt="Napoleon" width="40%">
+    <br><!---->
+    <a href="https://en.wikipedia.org/wiki/Napoleon">Click here to learn more about Napoleon in Wikipedia.</a> The previous link is colored red instead of blue, not underlined and will not change its styling after the user visited it.
+</section>
+</body>
+</html>
